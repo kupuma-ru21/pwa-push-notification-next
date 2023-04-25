@@ -8,6 +8,10 @@ class MyDocument extends Document {
           <link rel="manifest" href="/manifest.json" />
           <link rel="apple-touch-icon" href="/icon.png"></link>
           <meta name="theme-color" content="#fff" />
+          <script
+            src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"
+            defer
+          ></script>
         </Head>
         <body>
           <Main />
